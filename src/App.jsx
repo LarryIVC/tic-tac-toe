@@ -11,24 +11,24 @@ import Board from './components/Board';
 function App() {
   const [board, setBoard] = useState(Array(9).fill(null));
   const [turn, setTurn] = useState(TURNS.X);
-  const [winner,setWinner] = useState(null);
+  const [winner, setWinner] = useState(null);
 
   const updateBoard = (index) => {
     //si ya hay dato no escriba
-    if(board[index] || winner) return;
+    if (board[index] || winner) return;
     //cambiar el turno
-    const newTurn = turn ===TURNS.X ? TURNS.O: TURNS.X;
+    const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X;
     setTurn(newTurn);
     // actulizara el tablero
     const newBoard = [...board]
-    newBoard[index]=turn;
+    newBoard[index] = turn;
     setBoard(newBoard);
     //verificar si hay ganador
     const newWinner = checkWinner(newBoard);
-    if(newWinner){
+    if (newWinner) {
       confetti();
       setWinner(newWinner)
-    } else if(endGame(newBoard)){
+    } else if (endGame(newBoard)) {
       setWinner(false);
     }
   }
@@ -43,12 +43,12 @@ function App() {
     <main className="board">
       <button onClick={resetGame}>Limpiar</button>
       <h1>Tic tac toe</h1>
-      <Board board={board} updateBoard={updateBoard}/>
+      <Board board={board} updateBoard={updateBoard} />
       <section className="turn">
         <Cell isSelected={turn === TURNS.X}>{TURNS.X}</Cell>
-        <Cell isSelected={turn === TURNS.O}>{TURNS.O}</Cell>        
+        <Cell isSelected={turn === TURNS.O}>{TURNS.O}</Cell>
       </section>
-      <WinnerModal winner={winner} resetGame={resetGame}/>
+      <WinnerModal winner={winner} resetGame={resetGame} />
     </main>
   );
 }

@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const Cell = ({ children, updateBoard, index, isSelected }) => {
   const className = `cell_content ${isSelected ? 'isSelected' : ''}`;
   const handleClick = () => {
@@ -9,4 +11,11 @@ export const Cell = ({ children, updateBoard, index, isSelected }) => {
       {children}
     </div>
   );
+};
+
+Cell.propTypes = {
+  children: PropTypes.node,
+  updateBoard: PropTypes.func.isRequired,
+  index: PropTypes.number.isRequired,
+  isSelected: PropTypes.bool.isRequired,
 };

@@ -1,4 +1,5 @@
 import { Cell } from './Cell';
+import PropTypes from 'prop-types';
 
 function WinnerModal({ winner, resetGame }) {
   if (winner === null) return null;
@@ -13,5 +14,10 @@ function WinnerModal({ winner, resetGame }) {
     </section>
   );
 }
+
+WinnerModal.propTypes = {
+  winner: PropTypes.string,
+  resetGame: PropTypes.func.isRequired,
+};
 
 export default WinnerModal;
