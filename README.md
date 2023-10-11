@@ -93,7 +93,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/LarryIVC/tictactoe.git
+  git clone git@github.com:LarryIVC/tic-tac-toe.git
 ```
 
 ### Prerequisites
@@ -136,7 +136,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/LarryIVC/tictactoe/issues).
+Feel free to check the [issues page](https://github.com/LarryIVC/tic-tac-toe/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +144,7 @@ Feel free to check the [issues page](https://github.com/LarryIVC/tictactoe/issue
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Help me with your criticisms and your suggestions, you will be blessed for such a noble gesture and give me a ⭐️ if you like this project. click [here ⭐️](https://github.com/LarryIVC/tictactoe)
+Help me with your criticisms and your suggestions, you will be blessed for such a noble gesture and give me a ⭐️ if you like this project. click [here ⭐️](https://github.com/LarryIVC/tic-tac-toe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
