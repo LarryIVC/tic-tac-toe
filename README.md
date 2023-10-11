@@ -73,7 +73,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://users-table-dev.netlify.app/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +93,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git git@github.com:LarryIVC/users-table.git
+  git clone https://github.com/LarryIVC/tictactoe.git
 ```
 
 ### Prerequisites
@@ -109,38 +109,6 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  psql postgres postgres
-```
---->
-
-<!-- ### Run tests
-
-To run tests, run the following command: -->
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-<!-- ### Deployment
-
-You can deploy this project using: -->
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +136,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/LarryIVC/users-table/issues).
+Feel free to check the [issues page](https://github.com/LarryIVC/tictactoe/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +144,7 @@ Feel free to check the [issues page](https://github.com/LarryIVC/users-table/iss
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Help me with your criticisms and your suggestions, you will be blessed for such a noble gesture and give me a ⭐️ if you like this project. click [here ⭐️](https://github.com/LarryIVC/db_vet_clinic)
+Help me with your criticisms and your suggestions, you will be blessed for such a noble gesture and give me a ⭐️ if you like this project. click [here ⭐️](https://github.com/LarryIVC/tictactoe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,22 +155,6 @@ Help me with your criticisms and your suggestions, you will be blessed for such 
 I would like to thank @midudev for his videos.<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-<!-- ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
