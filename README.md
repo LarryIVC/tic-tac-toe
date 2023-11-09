@@ -71,8 +71,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://tic-tac-toe-larrydev.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,8 +78,6 @@
 GETTING STARTED
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -94,16 +90,6 @@ Example commands:
 ```sh
   cd my-folder
   git clone git@github.com:LarryIVC/tic-tac-toe.git
-```
-
-### Prerequisites
-
-In order to run this project you need:
-
-Example command:
-
-```
-  To have installed PostgreSQL database server
 ```
 
 ### Usage
